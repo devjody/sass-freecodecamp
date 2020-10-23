@@ -1,0 +1,15 @@
+<style type='text/scss'>
+
+$y: 1;
+@while $y < 6 {
+  .text-#{$y} { font-size: 15px * $y;}
+  $y: $y + 1;
+}
+
+</style>
+
+<p class="text-1">Hello</p>
+<p class="text-2">Hello</p>
+<p class="text-3">Hello</p>
+<p class="text-4">Hello</p>
+<p class="text-5">Hello</p>
